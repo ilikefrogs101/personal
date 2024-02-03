@@ -26,6 +26,13 @@
         description: 'An experiment to generate realistic-ish language within certain parameters',
         link: 'https://github.com/ilikefrogs101/Language-Generation',
       },
+      {
+        id: 3,
+        name: 'Unnamed Physics Engine',
+        image: '',
+        description: 'A physics engine I am working on, if it turns out any good it will be integated into the game engine mentioned in my projects page ',
+        link: '',
+      },
     ];
 </script>
 
@@ -46,9 +53,11 @@
                     <p class="body-text">{description}</p>
                     {#if image}
                     <img src={image} alt={name}> {/if}
+		    {#if link}
                     <a href={link} target="_blank" rel="noopener noreferrer">
                         <p class="body-text-link">Link</p>
                     </a>
+		    {/if}
                 </div>
                 {/if}
             </li>
