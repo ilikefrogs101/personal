@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
    import PageBar from '../../components/pagebar.svelte';
   
-    function toggleExpand(index) {
+    function toggleExpand(index: number) {
       experiments.forEach((experiment, i) => {
         if (i !== index) {
           experiment.expanded = false;
@@ -45,9 +45,9 @@
             {#each experiments as { id, name, image, description, link, expanded }, index (id)}
             <li class="experiment">
                 <!-- svelte-ignore a11y-click-events-have-key-events -->
-                <h4 class="experiment-button" on:click={()=> toggleExpand(index)}>
+                <button class="experiment-button" on:click={()=> toggleExpand(index)}>
                     <span class="subtitle">{name}</span>
-                </h4>
+                </button>
                 {#if expanded}
                 <div class="expanded-experiment">
                     <p class="body-text">{description}</p>

@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
     import PageBar from '../../components/pagebar.svelte';
     
-    function toggleExpand(index) {
+    function toggleExpand(index: number) {
         friends.forEach((friend, i) => {
         if (i !== index) {
             friend.expanded = false;
@@ -35,9 +35,9 @@
             {#each friends as { id, name, description, link, expanded }, index (id)}
             <li class="friend">
                 <!-- svelte-ignore a11y-click-events-have-key-events -->
-                <h4 class="friend-button" on:click={()=> toggleExpand(index)}>
+                <button class="friend-button" on:click={()=> toggleExpand(index)}>
                     <span class="subtitle">{name}</span>
-                </h4>
+                </button>
                 {#if expanded}
                 <div class="expanded-friend">
                     <p class="body-text">{description}</p>
