@@ -17,6 +17,7 @@
             description: 'My first and biggest programming project', 
             image: '',
             link: 'https://store.steampowered.com/app/1801630/HIGHBLAST/', 
+            expanded: false,
         },
         { 
             id: 2, 
@@ -24,6 +25,7 @@
             description: 'A miniature train simulator I helped with', 
             image: '',
             link: '',
+            expanded: false,
         },
         { 
             id: 3, 
@@ -32,6 +34,7 @@
             image: 'NotesPreview.png',
             link: 'https://github.com/ilikefrogs101/Notes/releases', 
             sourceLink: 'https://github.com/ilikefrogs101/Notes',
+            expanded: false,
         },
         { 
             id: 4, 
@@ -40,6 +43,7 @@
             image: '',
             link: '', 
             sourceLink: '',
+            expanded: false,
         },
     ];
 </script>

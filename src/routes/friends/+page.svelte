@@ -16,12 +16,14 @@
             name: 'QuazarCG', 
             description: '"Amature 3d modeller, always wanted to get into game development. I use Blender and Godot"', 
             link: 'https://www.youtube.com/@QuazarCGI',
+            expanded: false,
         },
         { 
             id: 2, 
             name: 'Lyvri', 
             description: '"A young programmer that programs. makes inexpensive games."', 
             link: 'https://sites.google.com/view/mysticaldevelopers/home',
+            expanded: false,
         },
     ];
 </script>

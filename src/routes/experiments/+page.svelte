@@ -18,6 +18,7 @@
         image: '',
         description: 'Just a simple open source raycast car controller for Unity',
         link: 'https://github.com/ilikefrogs101/Raycast-Car-Controller',
+        expanded: false,
       },
       {
         id: 2,
@@ -25,6 +26,7 @@
         image: '',
         description: 'An experiment to generate realistic-ish language within certain parameters',
         link: 'https://github.com/ilikefrogs101/Language-Generation',
+        expanded: false,
       },
       {
         id: 3,
@@ -32,6 +34,7 @@
         image: '',
         description: 'A physics engine I am working on, if it turns out any good it will be integated into the game engine mentioned in my projects page ',
         link: '',
+        expanded: false,
       },
     ];
 </script>
