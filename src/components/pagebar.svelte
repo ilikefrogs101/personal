@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
   import { page } from '$app/stores';
 
-  function isActive(url) {
+  function isActive(url: string) {
     let currentPath = $page.url.pathname;
     return currentPath === url;
   }
