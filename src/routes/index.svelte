@@ -1,18 +1,27 @@
 <script>
     import { Router, Route } from 'svelte-routing';
+    
     import Home from '../pages/Home.svelte';
     import Projects from '../pages/Projects.svelte';
     import Experiments from '../pages/Experiments.svelte';
     import Friends from '../pages/Friends.svelte';
+    import NotFound from '../pages/NotFound.svelte';
   
+    const Routes = {
+        '/*': NotFound,
+        '/projects': Projects,
+        '/experiments': Experiments,
+        '/friends': Friends,
+        '/': Home,
+    };
+
     export let url = '';
 </script>
 
-<Router {url} basepath="/">
+<Router {url}>
     <div>
-        <Route path="friends" component={Friends} />
-        <Route path="experiments" component={Experiments} />
-        <Route path="projects" component={Projects} />
-        <Route path="/" component={Home} />
+      {#each Object.entries(Routes) as [path, Page]}
+        <Route path={`${path}`}><Page /></Route>
+      {/each}
     </div>
-</Router>
+  </Router>

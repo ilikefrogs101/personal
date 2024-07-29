@@ -1,0 +1,7 @@
+
+<main>
+    <div>
+        <h1 class="title">404</h1>
+        <p class="subtitle">Page Not Found</p>
+    </div>
+</main>
