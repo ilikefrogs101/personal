@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  @import '../Assets/styles.css';
+  @import '/Assets/styles.css';
   
   :global(body) {
     background-color: #32302f;
