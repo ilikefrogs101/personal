@@ -1,5 +1,5 @@
 <script>
-    import PageBar from '../components/pagebar.svelte';
+   import PageBar from '../../components/pagebar.svelte';
   
     function toggleExpand(index) {
       experiments.forEach((experiment, i) => {

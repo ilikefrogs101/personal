@@ -1,5 +1,5 @@
 <script>
-    import PageBar from '../components/pagebar.svelte';
+    import PageBar from '../../components/pagebar.svelte';
 
     function toggleExpand(index) {
         projects.forEach((project, i) => {
@@ -29,7 +29,7 @@
             id: 3, 
             name: 'Pinboard/Notes App', 
             description: 'A notes app in the style of a pinboard I am working on', 
-            image: 'Assets/NotesPreview.png',
+            image: 'NotesPreview.png',
             link: 'https://github.com/ilikefrogs101/Notes/releases', 
             sourceLink: 'https://github.com/ilikefrogs101/Notes',
         },
