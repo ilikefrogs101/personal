@@ -39,6 +39,7 @@
                     <span class="subtitle">{name}</span>
                 </button>
                 {#if expanded}
+                <p> </p>
                 <div class="expanded-friend">
                     <p class="body-text">{description}</p>
                     <a href={link} target="_blank" rel="noopener noreferrer">

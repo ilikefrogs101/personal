@@ -49,6 +49,7 @@
                     <span class="subtitle">{name}</span>
                 </button>
                 {#if expanded}
+                <p> </p>
                 <div class="expanded-experiment">
                     <p class="body-text">{description}</p>
                     {#if image}
