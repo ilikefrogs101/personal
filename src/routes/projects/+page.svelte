@@ -44,6 +44,15 @@
             link: '', 
             sourceLink: '',
             expanded: false,
+        },        
+	{ 
+            id: 5, 
+            name: 'Syweav', 
+            description: 'Secret project I am working on, more will be revealed later', 
+            image: '',
+            link: '', 
+            sourceLink: '',
+            expanded: false,
         },
     ];
 </script>
