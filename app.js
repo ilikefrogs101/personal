@@ -148,7 +148,7 @@ function renderProjectsList()
             }
             clearInterval(interval);
         }
-    }, 50)
+    }, 10)
 }
 function toggleExperimentExpand(index) {
     experiments.forEach((experiment, i) => {
@@ -215,7 +215,7 @@ function renderExperimentsList()
             }
             clearInterval(interval);
         }
-    }, 50)
+    }, 10)
 }
 function toggleFriendExpand(index) {
     friends.forEach((friend, i) => {
@@ -262,7 +262,7 @@ function renderFriendsList()
             }
             clearInterval(interval);
         }
-    }, 50)
+    }, 10)
 }
 
 let projects = [
