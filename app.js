@@ -268,14 +268,14 @@ function renderFriendsList()
 let projects = [
     { 
         name: 'Syweav', 
-        description: 'A WIP system configuration and package management software', 
+        description: 'Syweav is a WIP system configuration and package management software', 
         image: null,
         link: null ,
         sourceLink: null,
     },
     {
         name: 'Lyrbd',
-        description: 'A music player daemon complete with playlists. Designed to easily integrate with window manager hotkeys.',
+        description: 'Lyrbd is a music player daemon complete with playlists. Designed to easily integrate with window manager hotkeys.',
         image: null,
         link: null,
         sourceLink: null
