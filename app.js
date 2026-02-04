@@ -267,66 +267,50 @@ function renderFriendsList()
 
 let projects = [
     { 
-        name: 'HIGHBLAST', 
-        description: 'My first and biggest programming project', 
-        image: null,
-        link: 'https://store.steampowered.com/app/1801630/HIGHBLAST/', 
-        sourceLink: null,
-    },
-    { 
-        name: 'Unnamed Music Player', 
-        description: 'A WIP local music player', 
+        name: 'syweav', 
+        description: 'WIP system configuration and package management software', 
         image: null,
         link: null ,
         sourceLink: null,
     },
+    {
+        name: 'lyrbd',
+        description: 'Music player daemon complete with playlists. Designed to easily integrate with window manager hotkeys.',
+        image: null,
+        link: null,
+        sourceLink: null
+    },
+    {
+        name: 'Unnamed Library Simulator',
+        description: 'A WIP game where one can setup a library and organise books anyway they choose.',
+        image: null,
+        link: null,
+        sourceLink: null
+    },
+    {
+        name: 'Unnamed Space Combat Game',
+        description: 'A WIP game where one can construct a ship and use it in combat. The more parts you add the more separate systems you will have to manage.'
+    },
     { 
-        name: 'Unnamed Bulletin Board', 
-        description: 'A WIP bulletin board program', 
+        name: 'Unnamed Bulletin Board Software', 
+        description: 'A WIP bulletin board program. Designed to be able to physically represent the linking of ideas.', 
         image: null,
         link: null, 
-        sourceLink: null,
-    },
-    { 
-        name: 'Unnamed Card Game & Dice Game', 
-        description: 'A WIP game in which people can play any card/dice game through multiplayer', 
-        image: null,
-        link: null ,
-        sourceLink: null,
-    },
-    { 
-        name: 'Unnamed Game Engine', 
-        description: 'A WIP game engine being created for a future project', 
-        image: null,
-        link: null ,
-        sourceLink: null,
-    },
-    { 
-        name: 'Syweav', 
-        description: 'System configuration and package management software', 
-        image: null,
-        link: null ,
         sourceLink: null,
     },
 ];
 let experiments = [
     {
-      name: 'Raycast Car Controller',
-      image: null,
-      description: 'Just a simple open source raycast car controller for Unity',
-      link: 'https://github.com/ilikefrogs101/Raycast-Car-Controller',
+        name: 'Unnamed Game Engine',
+        image: null,
+        description: 'A WIP game engine.',
+        link: null,
     },
     {
-      name: 'Language Generation',
-      image: null,
-      description: 'An experiment to generate realistic-ish language within certain parameters',
-      link: 'https://github.com/ilikefrogs101/Language-Generation',
-    },
-    {
-      name: 'Unnamed Physics Engine',
-      image: null,
-      description: 'A physics engine I am working on, if it turns out any good it will be integated into the game engine mentioned in my projects page ',
-      link: null,
+        name: 'Unnamed Physics Engine',
+        image: null,
+        description: 'A WIP physics engine to go with the aforemention game engine.',
+        link: null,
     },
 ];
 let friends = [
