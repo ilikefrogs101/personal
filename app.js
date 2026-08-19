@@ -321,9 +321,9 @@ let experiments = [
 ];
 let friends = [
     { 
-        name: 'QuazarCG', 
+        name: 'QuasarCG', 
         description: '"Amature 3d modeller, always wanted to get into game development. I use Blender and Godot"', 
-        link: 'https://www.youtube.com/@QuazarCGI',
+        link: 'https://www.youtube.com/@quasarcg_studio',
     },
     { 
         name: 'Lyvri', 
